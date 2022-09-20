@@ -6,10 +6,10 @@
 * @b: pointer of parameter
 */
 void swap_int(int *a, int *b)
-{i
-		int temp;
+{
+	int temp;
 
-			temp = (*a);
-				(*a) = (*b);
-					(*b) = temp;
+	temp = (*a);
+	(*a) = (*b);
+	(*b) = temp;
 }
