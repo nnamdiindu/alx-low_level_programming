@@ -27,7 +27,6 @@ void print_number(int n)
 	}
 	while (pow >= 1)
 	{
-		
 		_putchar(num / pow % 10 + '0');
 		pow /= 10;
 	}
